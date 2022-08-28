@@ -5,20 +5,20 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #1d1a1a;
+    background-color: #69673e;
 }
 
-.title {
+.heading {
     padding: 30px;
     color: #e7e0e0;
     text-align: center;
   }
 
-.title h1 {
+.heading h1 {
     font-size: 2.5em;
   }
   
-  .wrapper {
+  .box1 {
     width: 500px;
     position: absolute;
     top: 20%;
@@ -26,7 +26,7 @@ body{
     transform: translate(-50%, -50%);
   }
   
-  .wrapper input {
+  .box1 input {
     width: 100%;
     margin: 5px;
     padding: 15px 30px;
@@ -36,7 +36,7 @@ body{
     border-radius: 25px;
   }
 
-  .search{
+  .formsearch{
     position: relative;
   }
 
@@ -49,9 +49,9 @@ body{
     cursor: pointer;
   }
 
-  /* Dynamically Added Css Content */
+   /* -----Css ----- */
 
-.main-content{
+.box3{
     margin-top:100px;
     display: flex;
     align-items: center;
@@ -61,12 +61,12 @@ body{
 }
 
 
-.content img{
-    height: 150px;
-    width: 150px;
+.content2 img{
+    height: 200px;
+    width: 200px;
 }
 
-  .content{
+  .content2{
     height:350px;
     width:250px;
     color:#e7e0e0;
@@ -75,18 +75,18 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 0 0 3px #ffd700;
+    box-shadow: 0 0 3px #8ef96e;
   }
 
-  .show-title h3,h5,button{
+  .show-heading h3,h5,button{
     margin: 5px;
   }
 
-  .btn{
+  .buttonclass{
     border:none;
     color:#000;
     padding: 8px 12px;
-    background-color: yellow;
+    background-color: rgb(46, 224, 97);
     border-radius: 10px;
     cursor: pointer;
   }
